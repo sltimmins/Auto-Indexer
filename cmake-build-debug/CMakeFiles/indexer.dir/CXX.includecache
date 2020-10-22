@@ -6,35 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSLinkedList.h
 iostream
 -
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.cpp
+DSString.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h
+
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h
 iostream
 -
 cstring
 -
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSVector.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSVector.h
 iostream
 -
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.cpp
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.cpp
 Entry.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.h
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.h
 set
 -
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h
 DSVector.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSVector.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSVector.h
 DSLinkedList.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSLinkedList.h
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Indexer.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Indexer.h
 iostream
 -
 fstream
@@ -42,35 +46,35 @@ fstream
 map
 -
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h
 DSVector.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSVector.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSVector.h
 DSLinkedList.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSLinkedList.h
 Entry.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.h
 Parser.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.h
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/LinkedListTest.cpp
+/Users/stimmins/Documents/GitHub/Auto-Indexer/LinkedListTest.cpp
 catch.hpp
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Auto-Indexer/catch.hpp
 DSLinkedList.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSLinkedList.h
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.cpp
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.cpp
 map
 -
 Parser.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.h
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h
 Entry.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.h
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.h
 iostream
 -
 fstream
@@ -78,15 +82,15 @@ fstream
 map
 -
 DSString.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h
 DSVector.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSVector.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSVector.h
 DSLinkedList.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSLinkedList.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSLinkedList.h
 Entry.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.h
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Auto-Indexer/catch.hpp
 TargetConditionals.h
 -
 ciso646
@@ -462,7 +466,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Foundation/Foundation.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Foundation/Foundation.h
 limits
 -
 set
@@ -666,11 +670,21 @@ algorithm
 cassert
 -
 
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/main.cpp
+/Users/stimmins/Documents/GitHub/Auto-Indexer/main.cpp
 iostream
 -
 catch.hpp
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/catch.hpp
+/Users/stimmins/Documents/GitHub/Auto-Indexer/catch.hpp
 Indexer.h
-/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Indexer.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/Indexer.h
+
+/Users/stimmins/Documents/GitHub/Auto-Indexer/vectorTest.cpp
+string
+-
+catch.hpp
+/Users/stimmins/Documents/GitHub/Auto-Indexer/catch.hpp
+DSVector.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSVector.h
+DSString.h
+/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h
 

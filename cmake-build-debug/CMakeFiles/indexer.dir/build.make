@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins
+CMAKE_SOURCE_DIR = /Users/stimmins/Documents/GitHub/Auto-Indexer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/indexer.dir/depend.make
@@ -79,81 +79,81 @@ include CMakeFiles/indexer.dir/flags.make
 
 CMakeFiles/indexer.dir/main.cpp.o: CMakeFiles/indexer.dir/flags.make
 CMakeFiles/indexer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/indexer.dir/main.cpp.o"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/main.cpp.o -c /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/indexer.dir/main.cpp.o"
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/main.cpp.o -c /Users/stimmins/Documents/GitHub/Auto-Indexer/main.cpp
 
 CMakeFiles/indexer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indexer.dir/main.cpp.i"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/main.cpp > CMakeFiles/indexer.dir/main.cpp.i
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/Auto-Indexer/main.cpp > CMakeFiles/indexer.dir/main.cpp.i
 
 CMakeFiles/indexer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indexer.dir/main.cpp.s"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/main.cpp -o CMakeFiles/indexer.dir/main.cpp.s
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/Auto-Indexer/main.cpp -o CMakeFiles/indexer.dir/main.cpp.s
 
 CMakeFiles/indexer.dir/vectorTest.cpp.o: CMakeFiles/indexer.dir/flags.make
 CMakeFiles/indexer.dir/vectorTest.cpp.o: ../vectorTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/indexer.dir/vectorTest.cpp.o"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/vectorTest.cpp.o -c /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/vectorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/indexer.dir/vectorTest.cpp.o"
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/vectorTest.cpp.o -c /Users/stimmins/Documents/GitHub/Auto-Indexer/vectorTest.cpp
 
 CMakeFiles/indexer.dir/vectorTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indexer.dir/vectorTest.cpp.i"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/vectorTest.cpp > CMakeFiles/indexer.dir/vectorTest.cpp.i
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/Auto-Indexer/vectorTest.cpp > CMakeFiles/indexer.dir/vectorTest.cpp.i
 
 CMakeFiles/indexer.dir/vectorTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indexer.dir/vectorTest.cpp.s"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/vectorTest.cpp -o CMakeFiles/indexer.dir/vectorTest.cpp.s
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/Auto-Indexer/vectorTest.cpp -o CMakeFiles/indexer.dir/vectorTest.cpp.s
 
 CMakeFiles/indexer.dir/LinkedListTest.cpp.o: CMakeFiles/indexer.dir/flags.make
 CMakeFiles/indexer.dir/LinkedListTest.cpp.o: ../LinkedListTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/indexer.dir/LinkedListTest.cpp.o"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/LinkedListTest.cpp.o -c /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/LinkedListTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/indexer.dir/LinkedListTest.cpp.o"
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/LinkedListTest.cpp.o -c /Users/stimmins/Documents/GitHub/Auto-Indexer/LinkedListTest.cpp
 
 CMakeFiles/indexer.dir/LinkedListTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indexer.dir/LinkedListTest.cpp.i"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/LinkedListTest.cpp > CMakeFiles/indexer.dir/LinkedListTest.cpp.i
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/Auto-Indexer/LinkedListTest.cpp > CMakeFiles/indexer.dir/LinkedListTest.cpp.i
 
 CMakeFiles/indexer.dir/LinkedListTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indexer.dir/LinkedListTest.cpp.s"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/LinkedListTest.cpp -o CMakeFiles/indexer.dir/LinkedListTest.cpp.s
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/Auto-Indexer/LinkedListTest.cpp -o CMakeFiles/indexer.dir/LinkedListTest.cpp.s
 
 CMakeFiles/indexer.dir/DSString.cpp.o: CMakeFiles/indexer.dir/flags.make
 CMakeFiles/indexer.dir/DSString.cpp.o: ../DSString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/indexer.dir/DSString.cpp.o"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/DSString.cpp.o -c /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/indexer.dir/DSString.cpp.o"
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/DSString.cpp.o -c /Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.cpp
 
 CMakeFiles/indexer.dir/DSString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indexer.dir/DSString.cpp.i"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.cpp > CMakeFiles/indexer.dir/DSString.cpp.i
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.cpp > CMakeFiles/indexer.dir/DSString.cpp.i
 
 CMakeFiles/indexer.dir/DSString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indexer.dir/DSString.cpp.s"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.cpp -o CMakeFiles/indexer.dir/DSString.cpp.s
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.cpp -o CMakeFiles/indexer.dir/DSString.cpp.s
 
 CMakeFiles/indexer.dir/Parser.cpp.o: CMakeFiles/indexer.dir/flags.make
 CMakeFiles/indexer.dir/Parser.cpp.o: ../Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/indexer.dir/Parser.cpp.o"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/Parser.cpp.o -c /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/indexer.dir/Parser.cpp.o"
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/Parser.cpp.o -c /Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.cpp
 
 CMakeFiles/indexer.dir/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indexer.dir/Parser.cpp.i"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.cpp > CMakeFiles/indexer.dir/Parser.cpp.i
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.cpp > CMakeFiles/indexer.dir/Parser.cpp.i
 
 CMakeFiles/indexer.dir/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indexer.dir/Parser.cpp.s"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.cpp -o CMakeFiles/indexer.dir/Parser.cpp.s
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.cpp -o CMakeFiles/indexer.dir/Parser.cpp.s
 
 CMakeFiles/indexer.dir/Entry.cpp.o: CMakeFiles/indexer.dir/flags.make
 CMakeFiles/indexer.dir/Entry.cpp.o: ../Entry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/indexer.dir/Entry.cpp.o"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/Entry.cpp.o -c /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/indexer.dir/Entry.cpp.o"
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indexer.dir/Entry.cpp.o -c /Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.cpp
 
 CMakeFiles/indexer.dir/Entry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indexer.dir/Entry.cpp.i"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.cpp > CMakeFiles/indexer.dir/Entry.cpp.i
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.cpp > CMakeFiles/indexer.dir/Entry.cpp.i
 
 CMakeFiles/indexer.dir/Entry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indexer.dir/Entry.cpp.s"
-	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.cpp -o CMakeFiles/indexer.dir/Entry.cpp.s
+	/usr/local/Cellar/gcc/9.2.0_3/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.cpp -o CMakeFiles/indexer.dir/Entry.cpp.s
 
 # Object files for target indexer
 indexer_OBJECTS = \
@@ -175,7 +175,7 @@ indexer: CMakeFiles/indexer.dir/Parser.cpp.o
 indexer: CMakeFiles/indexer.dir/Entry.cpp.o
 indexer: CMakeFiles/indexer.dir/build.make
 indexer: CMakeFiles/indexer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable indexer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable indexer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/indexer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +188,6 @@ CMakeFiles/indexer.dir/clean:
 .PHONY : CMakeFiles/indexer.dir/clean
 
 CMakeFiles/indexer.dir/depend:
-	cd /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles/indexer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/stimmins/Documents/GitHub/Auto-Indexer /Users/stimmins/Documents/GitHub/Auto-Indexer /Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug /Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug /Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles/indexer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/indexer.dir/depend
 

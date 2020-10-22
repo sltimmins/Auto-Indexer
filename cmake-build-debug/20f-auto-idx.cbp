@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="indexer">
-				<Option output="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/indexer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug"/>
+				<Option output="/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/indexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -58,15 +58,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexer"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="indexer/fast">
-				<Option output="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/indexer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug"/>
+				<Option output="/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/indexer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -85,56 +85,56 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexer/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 indexer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSLinkedList.h">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/DSLinkedList.h">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.cpp">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSString.h">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/DSString.h">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/DSVector.h">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/DSVector.h">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.cpp">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Entry.h">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/Entry.h">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Indexer.h">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/Indexer.h">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/LinkedListTest.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/LinkedListTest.cpp">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.cpp">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/Parser.h">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/Parser.h">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/catch.hpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/catch.hpp">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/main.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/main.cpp">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/vectorTest.cpp">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/vectorTest.cpp">
 			<Option target="indexer"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/CMakeLists.txt">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/input03.txt">
+		<Unit filename="/Users/stimmins/Documents/GitHub/Auto-Indexer/input03.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

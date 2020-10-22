@@ -64,10 +64,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins
+CMAKE_SOURCE_DIR = /Users/stimmins/Documents/GitHub/Auto-Indexer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/indexer.dir/clean
 CMakeFiles/indexer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/indexer.dir/build.make CMakeFiles/indexer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/indexer.dir/build.make CMakeFiles/indexer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target indexer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target indexer"
 .PHONY : CMakeFiles/indexer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/indexer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/indexer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stimmins/Documents/GitHub/20f-auto-indx-sltimmins/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stimmins/Documents/GitHub/Auto-Indexer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/indexer.dir/rule
 
 # Convenience name for target.
