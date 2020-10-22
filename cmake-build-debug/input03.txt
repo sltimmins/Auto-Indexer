@@ -1,0 +1,14 @@
+<15>
+algorithm [binary tree]
+ analysis heap(memory)
+<1>
+[binary search tree] analysis
+complexity algorithm [2-3 tree]
+<5>
+[b+ tree](tree) [Binary Tree](tree)
+<8>
+graph clique Tree
+<5>
+tree [full binary tree]
+[complete binary tree]
+<-1>
