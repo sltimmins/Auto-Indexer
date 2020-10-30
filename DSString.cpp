@@ -88,17 +88,14 @@ DSString DSString::operator+(const char *word) //+ operator overload for when DS
     return newString;
 }
 
-DSString DSString::operator+(const char character) //+ operator overload for when DSString is added to a char
+DSString& DSString::operator+(const char character) //+ operator overload for when DSString is added to a char
 {
-    DSString newString;
-    newString.length = this->length + 1;
-    newString.capacity = this->capacity + 1;
-    newString.data = new char[newString.capacity];
-    strcpy(newString.data, this->data);
-    newString.data[length] = character;
-    newString.data[newString.capacity - 1] = '\0';
+    length += 1;
+    capacity += 1;
+    data[length - 1] = character;
+    data[capacity - 1] = '\0';
 
-    return newString;
+    return *this;
 }
 
 bool DSString::operator==(const char *word){ //equality operator overload to compare a DSString to a char*
@@ -202,4 +199,9 @@ char* DSString::c_str() //converts the DSString to a cstring
 int DSString::dsstoi()
 {
     return stoi(data);
+}
+
+float DSString::dsstof()
+{
+    return stof(data);
 }
