@@ -21,7 +21,7 @@ public:
     DSString&operator=(const char*);
     DSString operator+(const DSString&) const;
     DSString operator+(const char*);
-    DSString operator+(const char);
+    DSString& operator+(const char);
     bool operator==(const char*);
     bool operator==(const DSString&);
     bool operator>(const DSString&);
@@ -36,6 +36,7 @@ public:
     DSString substr(int pos, int npos) const;
     char* c_str();
     int dsstoi();
+    float dsstof();
 
 private:
     char* data;
