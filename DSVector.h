@@ -34,7 +34,7 @@ private:
 template <typename T>
 DSVector<T>::DSVector()
 {
-    data = new T[0];
+    data = nullptr;
     size = 0;
 }
 
@@ -71,6 +71,7 @@ DSVector<T> & DSVector<T>::operator=(const DSVector<T> &copy)
     {
         data[i] = copy.data[i];
     }
+    return *this;
 }
 
 template <typename T>
